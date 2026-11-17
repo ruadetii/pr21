@@ -14,7 +14,7 @@ namespace RegIN_Radosteva
         {
             InitializeComponent();
             mainWindow = this;
-
+            OpenPage(new Pages.Login());
         }
         public void OpenPage(Page page) 
         {
